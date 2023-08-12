@@ -36,6 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.46.0"],\
             ["eslint-config-next", "virtual:6ac5a4a4cca5a450aa8bf03992de73e8ff2e4b1bb0982f6c6c66db2d039ba76231d9790067e094eacff8f28f806bc6fea0d113a31494e102b5c2e4b5106266d4#npm:13.4.12"],\
             ["next", "virtual:6ac5a4a4cca5a450aa8bf03992de73e8ff2e4b1bb0982f6c6c66db2d039ba76231d9790067e094eacff8f28f806bc6fea0d113a31494e102b5c2e4b5106266d4#npm:13.4.12"],\
+            ["next-themes", "virtual:6ac5a4a4cca5a450aa8bf03992de73e8ff2e4b1bb0982f6c6c66db2d039ba76231d9790067e094eacff8f28f806bc6fea0d113a31494e102b5c2e4b5106266d4#npm:0.2.1"],\
             ["postcss", "npm:8.4.27"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:6ac5a4a4cca5a450aa8bf03992de73e8ff2e4b1bb0982f6c6c66db2d039ba76231d9790067e094eacff8f28f806bc6fea0d113a31494e102b5c2e4b5106266d4#npm:18.2.0"],\
@@ -3525,6 +3526,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.46.0"],\
             ["eslint-config-next", "virtual:6ac5a4a4cca5a450aa8bf03992de73e8ff2e4b1bb0982f6c6c66db2d039ba76231d9790067e094eacff8f28f806bc6fea0d113a31494e102b5c2e4b5106266d4#npm:13.4.12"],\
             ["next", "virtual:6ac5a4a4cca5a450aa8bf03992de73e8ff2e4b1bb0982f6c6c66db2d039ba76231d9790067e094eacff8f28f806bc6fea0d113a31494e102b5c2e4b5106266d4#npm:13.4.12"],\
+            ["next-themes", "virtual:6ac5a4a4cca5a450aa8bf03992de73e8ff2e4b1bb0982f6c6c66db2d039ba76231d9790067e094eacff8f28f806bc6fea0d113a31494e102b5c2e4b5106266d4#npm:0.2.1"],\
             ["postcss", "npm:8.4.27"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:6ac5a4a4cca5a450aa8bf03992de73e8ff2e4b1bb0982f6c6c66db2d039ba76231d9790067e094eacff8f28f806bc6fea0d113a31494e102b5c2e4b5106266d4#npm:18.2.0"],\
@@ -3532,6 +3534,36 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["typescript", "patch:typescript@npm%3A5.1.6#~builtin<compat/typescript>::version=5.1.6&hash=5da071"]\
           ],\
           "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["next-themes", [\
+        ["npm:0.2.1", {\
+          "packageLocation": "./.yarn/cache/next-themes-npm-0.2.1-16a440cf6e-ebc248b956.zip/node_modules/next-themes/",\
+          "packageDependencies": [\
+            ["next-themes", "npm:0.2.1"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6ac5a4a4cca5a450aa8bf03992de73e8ff2e4b1bb0982f6c6c66db2d039ba76231d9790067e094eacff8f28f806bc6fea0d113a31494e102b5c2e4b5106266d4#npm:0.2.1", {\
+          "packageLocation": "./.yarn/__virtual__/next-themes-virtual-5b3495b6c7/0/cache/next-themes-npm-0.2.1-16a440cf6e-ebc248b956.zip/node_modules/next-themes/",\
+          "packageDependencies": [\
+            ["next-themes", "virtual:6ac5a4a4cca5a450aa8bf03992de73e8ff2e4b1bb0982f6c6c66db2d039ba76231d9790067e094eacff8f28f806bc6fea0d113a31494e102b5c2e4b5106266d4#npm:0.2.1"],\
+            ["@types/next", null],\
+            ["@types/react", "npm:18.2.18"],\
+            ["@types/react-dom", "npm:18.2.7"],\
+            ["next", "virtual:6ac5a4a4cca5a450aa8bf03992de73e8ff2e4b1bb0982f6c6c66db2d039ba76231d9790067e094eacff8f28f806bc6fea0d113a31494e102b5c2e4b5106266d4#npm:13.4.12"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6ac5a4a4cca5a450aa8bf03992de73e8ff2e4b1bb0982f6c6c66db2d039ba76231d9790067e094eacff8f28f806bc6fea0d113a31494e102b5c2e4b5106266d4#npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/next",\
+            "@types/react-dom",\
+            "@types/react",\
+            "next",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["node-gyp", [\
