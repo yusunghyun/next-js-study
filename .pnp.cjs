@@ -28,11 +28,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@headlessui/react", "virtual:6ac5a4a4cca5a450aa8bf03992de73e8ff2e4b1bb0982f6c6c66db2d039ba76231d9790067e094eacff8f28f806bc6fea0d113a31494e102b5c2e4b5106266d4#npm:1.7.16"],\
             ["@types/node", "npm:20.4.7"],\
             ["@types/react", "npm:18.2.18"],\
             ["@types/react-dom", "npm:18.2.7"],\
             ["autoprefixer", "virtual:6ac5a4a4cca5a450aa8bf03992de73e8ff2e4b1bb0982f6c6c66db2d039ba76231d9790067e094eacff8f28f806bc6fea0d113a31494e102b5c2e4b5106266d4#npm:10.4.14"],\
             ["axios", "npm:1.4.0"],\
+            ["classnames", "npm:2.3.2"],\
             ["eslint", "npm:8.46.0"],\
             ["eslint-config-next", "virtual:6ac5a4a4cca5a450aa8bf03992de73e8ff2e4b1bb0982f6c6c66db2d039ba76231d9790067e094eacff8f28f806bc6fea0d113a31494e102b5c2e4b5106266d4#npm:13.4.12"],\
             ["next", "virtual:6ac5a4a4cca5a450aa8bf03992de73e8ff2e4b1bb0982f6c6c66db2d039ba76231d9790067e094eacff8f28f806bc6fea0d113a31494e102b5c2e4b5106266d4#npm:13.4.12"],\
@@ -129,6 +131,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@eslint-js-npm-8.46.0-3cfe1ee88b-7aed479832.zip/node_modules/@eslint/js/",\
           "packageDependencies": [\
             ["@eslint/js", "npm:8.46.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@headlessui/react", [\
+        ["npm:1.7.16", {\
+          "packageLocation": "./.yarn/cache/@headlessui-react-npm-1.7.16-039d64d731-85844c96c7.zip/node_modules/@headlessui/react/",\
+          "packageDependencies": [\
+            ["@headlessui/react", "npm:1.7.16"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6ac5a4a4cca5a450aa8bf03992de73e8ff2e4b1bb0982f6c6c66db2d039ba76231d9790067e094eacff8f28f806bc6fea0d113a31494e102b5c2e4b5106266d4#npm:1.7.16", {\
+          "packageLocation": "./.yarn/__virtual__/@headlessui-react-virtual-9eafb62daf/0/cache/@headlessui-react-npm-1.7.16-039d64d731-85844c96c7.zip/node_modules/@headlessui/react/",\
+          "packageDependencies": [\
+            ["@headlessui/react", "virtual:6ac5a4a4cca5a450aa8bf03992de73e8ff2e4b1bb0982f6c6c66db2d039ba76231d9790067e094eacff8f28f806bc6fea0d113a31494e102b5c2e4b5106266d4#npm:1.7.16"],\
+            ["@types/react", "npm:18.2.18"],\
+            ["@types/react-dom", "npm:18.2.7"],\
+            ["client-only", "npm:0.0.1"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:6ac5a4a4cca5a450aa8bf03992de73e8ff2e4b1bb0982f6c6c66db2d039ba76231d9790067e094eacff8f28f806bc6fea0d113a31494e102b5c2e4b5106266d4#npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1143,6 +1172,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/chownr-npm-2.0.0-638f1c9c61-c57cf9dd07.zip/node_modules/chownr/",\
           "packageDependencies": [\
             ["chownr", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["classnames", [\
+        ["npm:2.3.2", {\
+          "packageLocation": "./.yarn/cache/classnames-npm-2.3.2-d2fdae468d-2c62199789.zip/node_modules/classnames/",\
+          "packageDependencies": [\
+            ["classnames", "npm:2.3.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3518,11 +3556,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["next-js-study", "workspace:."],\
+            ["@headlessui/react", "virtual:6ac5a4a4cca5a450aa8bf03992de73e8ff2e4b1bb0982f6c6c66db2d039ba76231d9790067e094eacff8f28f806bc6fea0d113a31494e102b5c2e4b5106266d4#npm:1.7.16"],\
             ["@types/node", "npm:20.4.7"],\
             ["@types/react", "npm:18.2.18"],\
             ["@types/react-dom", "npm:18.2.7"],\
             ["autoprefixer", "virtual:6ac5a4a4cca5a450aa8bf03992de73e8ff2e4b1bb0982f6c6c66db2d039ba76231d9790067e094eacff8f28f806bc6fea0d113a31494e102b5c2e4b5106266d4#npm:10.4.14"],\
             ["axios", "npm:1.4.0"],\
+            ["classnames", "npm:2.3.2"],\
             ["eslint", "npm:8.46.0"],\
             ["eslint-config-next", "virtual:6ac5a4a4cca5a450aa8bf03992de73e8ff2e4b1bb0982f6c6c66db2d039ba76231d9790067e094eacff8f28f806bc6fea0d113a31494e102b5c2e4b5106266d4#npm:13.4.12"],\
             ["next", "virtual:6ac5a4a4cca5a450aa8bf03992de73e8ff2e4b1bb0982f6c6c66db2d039ba76231d9790067e094eacff8f28f806bc6fea0d113a31494e102b5c2e4b5106266d4#npm:13.4.12"],\
