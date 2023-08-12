@@ -105,3 +105,16 @@ a {
     color-scheme: dark;
   }
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css */
+[data-theme="light"] .theme-dependent {
+  @apply text-black bg-white;
+}
+
+[data-theme="dark"] .theme-dependent {
+  @apply text-white bg-black;
+}

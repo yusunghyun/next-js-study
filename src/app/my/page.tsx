@@ -1,3 +1,5 @@
+import { ThemeSwitch } from "./ThemeSwitch";
+
 async function callApi() {
   const userReq = await fetch("https://jsonplaceholder.typicode.com/users");
   let result = await userReq.json();
@@ -13,8 +15,14 @@ export default async function Page() {
   return (
     <div>
       {userReq.map((user) => (
-        <li key={user.id}>{user.name}</li>
+        <li
+          key={user.id}
+          className="dark:bg-gray-900 bg-gray-50 w-full max-h-screen"
+        >
+          {user.name}
+        </li>
       ))}
+      <ThemeSwitch />
     </div>
   );
 }
