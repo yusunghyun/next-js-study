@@ -1,6 +1,10 @@
 {
   "name": "next-js-study",
   "version": "0.1.0",
+  "scripts": {
+    "frontend": "yarn workspace frontend",
+    "backend": "yarn workspace backend"
+  },
   "dependencies": {
     "next": "13.4.12",
     "react": "18.2.0",
