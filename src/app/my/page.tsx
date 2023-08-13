@@ -1,3 +1,4 @@
+import { MenuComponent } from "./MenuComponent";
 import { ThemeSwitch } from "./ThemeSwitch";
 
 async function callApi() {
@@ -23,6 +24,7 @@ export default async function Page() {
         </li>
       ))}
       <ThemeSwitch />
+      <MenuComponent />
     </div>
   );
 }
