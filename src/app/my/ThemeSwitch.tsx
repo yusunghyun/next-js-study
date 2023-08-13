@@ -4,11 +4,11 @@ import { useTheme } from "next-themes";
 
 export const ThemeSwitch = () => {
   const { theme, setTheme } = useTheme();
-  const darkKiller = theme === "dark";
+  const darkMain = theme === "dark";
 
-  console.log("dark : ", darkKiller);
+  console.log("dark : ", darkMain);
 
-  const toggleTheme = () => setTheme(darkKiller ? "light" : "dark");
+  const toggleTheme = () => setTheme(darkMain ? "light" : "dark");
 
   return (
     <button
